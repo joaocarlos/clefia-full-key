@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/joaocarlos/workspace/fpga/clefia-full-key-expansion/fpga/clefia_virtex5/keyexp_core_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="env" />
+            <top_module name="keyexp_core_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wave_markers>
+      <marker time="590000000" label="" />
+      <marker time="1400000000" label="" />
+      <marker time="370000000" label="" />
+      <marker time="490000000" label="" />
+      <marker time="390000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/keyexp_core_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyexp_core_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyexp_core_tb/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyexp_core_tb/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/round_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">round_counter[5:0]</obj_property>
+      <obj_property name="ObjectShortName">round_counter[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/cycle_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cycle_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">Tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/keyexp_core_tb/round_key_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_key_addr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">round_key_addr[5:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/key_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">key_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">key_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/lkey" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">lkey[31:0]</obj_property>
+         <obj_property name="ObjectShortName">lkey[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/expand_key" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">expand_key</obj_property>
+         <obj_property name="ObjectShortName">expand_key</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/enc_dec" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">enc_dec</obj_property>
+         <obj_property name="ObjectShortName">enc_dec</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/key_size_192" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">key_size_192</obj_property>
+         <obj_property name="ObjectShortName">key_size_192</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/key_size_256" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">key_size_256</obj_property>
+         <obj_property name="ObjectShortName">key_size_256</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/key" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">key[31:0]</obj_property>
+         <obj_property name="ObjectShortName">key[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/round_key" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_key[31:0]</obj_property>
+         <obj_property name="ObjectShortName">round_key[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/running" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">running</obj_property>
+         <obj_property name="ObjectShortName">running</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/round_counter" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">round_counter</obj_property>
+         <obj_property name="ObjectShortName">round_counter</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group55" type="group">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/constant_init" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">constant_init[1:0]</obj_property>
+         <obj_property name="ObjectShortName">constant_init[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/expand_key" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">expand_key</obj_property>
+         <obj_property name="ObjectShortName">expand_key</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/running" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">running</obj_property>
+         <obj_property name="ObjectShortName">running</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/srl32_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">srl32_address[4:0]</obj_property>
+         <obj_property name="ObjectShortName">srl32_address[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/left_right" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">left_right</obj_property>
+         <obj_property name="ObjectShortName">left_right</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/sel0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel0</obj_property>
+         <obj_property name="ObjectShortName">sel0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/sigma_op" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sigma_op[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sigma_op[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/sel3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel3</obj_property>
+         <obj_property name="ObjectShortName">sel3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/srl16_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">srl16_address[3:0]</obj_property>
+         <obj_property name="ObjectShortName">srl16_address[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/srl16_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">srl16_en</obj_property>
+         <obj_property name="ObjectShortName">srl16_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/sel1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel1</obj_property>
+         <obj_property name="ObjectShortName">sel1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/sel2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel2</obj_property>
+         <obj_property name="ObjectShortName">sel2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/round_key_waddr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_key_waddr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">round_key_waddr[8:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/round_key_wen" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_key_wen[0:0]</obj_property>
+         <obj_property name="ObjectShortName">round_key_wen[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/constant_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">constant_en</obj_property>
+         <obj_property name="ObjectShortName">constant_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/constant_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">constant_addr[8:0]</obj_property>
+         <obj_property name="ObjectShortName">constant_addr[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/round_counter_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">round_counter_en</obj_property>
+         <obj_property name="ObjectShortName">round_counter_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/round_counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_counter[5:0]</obj_property>
+         <obj_property name="ObjectShortName">round_counter[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/round_number" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_number[5:0]</obj_property>
+         <obj_property name="ObjectShortName">round_number[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/cycle_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cycle_en</obj_property>
+         <obj_property name="ObjectShortName">cycle_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/reset_cycle" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_cycle</obj_property>
+         <obj_property name="ObjectShortName">reset_cycle</obj_property>
+      </wvobject>
+      <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/gfn_8_4_net" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">gfn_8_4_net</obj_property>
+         <obj_property name="ObjectShortName">gfn_8_4_net</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group85" type="group">
+      <obj_property name="label">Datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group85" type="group">
+         <obj_property name="label">Key</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/sel1" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">sel1</obj_property>
+            <obj_property name="ObjectShortName">sel1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/key_in" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">key_in[31:0]</obj_property>
+            <obj_property name="ObjectShortName">key_in[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/lkey" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">lkey[31:0]</obj_property>
+            <obj_property name="ObjectShortName">lkey[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl16_address" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">srl16_address[3:0]</obj_property>
+            <obj_property name="ObjectShortName">srl16_address[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_state_machine_u0/left_right" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">left_right</obj_property>
+            <obj_property name="ObjectShortName">left_right</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl16_en" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">srl16_en</obj_property>
+            <obj_property name="ObjectShortName">srl16_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/sel2" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">sel2</obj_property>
+            <obj_property name="ObjectShortName">sel2</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/key_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">key_out[31:0]</obj_property>
+            <obj_property name="ObjectShortName">key_out[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl16_input" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">srl16_input[31:0]</obj_property>
+            <obj_property name="ObjectShortName">srl16_input[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl16_output" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">srl16_output[31:0]</obj_property>
+            <obj_property name="ObjectShortName">srl16_output[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl16_delay_en" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">srl16_delay_en</obj_property>
+            <obj_property name="ObjectShortName">srl16_delay_en</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl16_delay" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">srl16_delay[31:0]</obj_property>
+            <obj_property name="ObjectShortName">srl16_delay[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff0000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/key_inv" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">key_inv[31:0]</obj_property>
+            <obj_property name="ObjectShortName">key_inv[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff0000</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group86" type="group">
+         <obj_property name="label">Rkey</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl32_input" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">srl32_input[31:0]</obj_property>
+            <obj_property name="ObjectShortName">srl32_input[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl32_address" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">srl32_address[4:0]</obj_property>
+            <obj_property name="ObjectShortName">srl32_address[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/srl32_output" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">srl32_output[31:0]</obj_property>
+            <obj_property name="ObjectShortName">srl32_output[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/sigma_delay" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sigma_delay[31:0]</obj_property>
+            <obj_property name="ObjectShortName">sigma_delay[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff0000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/sigma_out" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sigma_out[31:0]</obj_property>
+            <obj_property name="ObjectShortName">sigma_out[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/sigma_op" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sigma_op[1:0]</obj_property>
+            <obj_property name="ObjectShortName">sigma_op[1:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/sel0" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">sel0</obj_property>
+            <obj_property name="ObjectShortName">sel0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/sel3" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">sel3</obj_property>
+            <obj_property name="ObjectShortName">sel3</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/constant_addr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">constant_addr[8:0]</obj_property>
+            <obj_property name="ObjectShortName">constant_addr[8:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/round_key_addr" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">round_key_addr[8:0]</obj_property>
+            <obj_property name="ObjectShortName">round_key_addr[8:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/wea" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">wea[0:0]</obj_property>
+            <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/key_i" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">key_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">key_i[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/sigma_delay" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">sigma_delay[31:0]</obj_property>
+            <obj_property name="ObjectShortName">sigma_delay[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff0000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/constant_ij" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">constant_ij[31:0]</obj_property>
+            <obj_property name="ObjectShortName">constant_ij[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ff0000</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/round_key_i" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">round_key_i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">round_key_i[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#ffa500</obj_property>
+         </wvobject>
+         <wvobject fp_name="/keyexp_core_tb/dut/keyexp_datapath_u0/round_key" type="array" db_ref_id="1">
+            <obj_property name="ElementShortName">round_key[31:0]</obj_property>
+            <obj_property name="ObjectShortName">round_key[31:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

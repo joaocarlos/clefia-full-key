@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/joaocarlos/workspace/clefia-full-key-expansion/fpga/clefia_virtex5/cipher_core_tb_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cipher_core_tb" />
+            <top_module name="env" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wave_markers>
+      <marker time="90146000" label="" />
+      <marker time="120100000" label="" />
+      <marker time="460100000" label="" />
+      <marker time="420100000" label="" />
+   </wave_markers>
+   <wvobject fp_name="group43" type="group">
+      <obj_property name="label">Tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/cipher_core_tb/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/whitening_key" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">whitening_key[31:0]</obj_property>
+         <obj_property name="ObjectShortName">whitening_key[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/data_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/expand_key" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">expand_key</obj_property>
+         <obj_property name="ObjectShortName">expand_key</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/enc_dec" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">enc_dec</obj_property>
+         <obj_property name="ObjectShortName">enc_dec</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/key_size_192" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">key_size_192</obj_property>
+         <obj_property name="ObjectShortName">key_size_192</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/key_size_256" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">key_size_256</obj_property>
+         <obj_property name="ObjectShortName">key_size_256</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/data_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/running" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">running</obj_property>
+         <obj_property name="ObjectShortName">running</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/round_counter" type="other" db_ref_id="1">
+         <obj_property name="ElementShortName">round_counter</obj_property>
+         <obj_property name="ObjectShortName">round_counter</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="group74" type="group">
+      <obj_property name="label">Datapath</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/data_in" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/whitening_key" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">whitening_key[31:0]</obj_property>
+         <obj_property name="ObjectShortName">whitening_key[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/srl_address" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">srl_address[3:0]</obj_property>
+         <obj_property name="ObjectShortName">srl_address[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/sel0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel0</obj_property>
+         <obj_property name="ObjectShortName">sel0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/sel1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel1</obj_property>
+         <obj_property name="ObjectShortName">sel1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/sel2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel2</obj_property>
+         <obj_property name="ObjectShortName">sel2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/sel3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel3</obj_property>
+         <obj_property name="ObjectShortName">sel3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/t0_t1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">t0_t1</obj_property>
+         <obj_property name="ObjectShortName">t0_t1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/data_out" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/r1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">r1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r1[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/i0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i0[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/i2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">i2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i2[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/u0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">u0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">u0[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/u1" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">u1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">u1[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/u2" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">u2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">u2[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/round_key" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_key[31:0]</obj_property>
+         <obj_property name="ObjectShortName">round_key[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/u3" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">u3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">u3[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/x0" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">x0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x0[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/srl_output" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">srl_output[31:0]</obj_property>
+         <obj_property name="ObjectShortName">srl_output[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_datapath_u0/reset_srl" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_srl</obj_property>
+         <obj_property name="ObjectShortName">reset_srl</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group112" type="group">
+      <obj_property name="label">Control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/clock" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/reset" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset</obj_property>
+         <obj_property name="ObjectShortName">reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/enc_dec" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">enc_dec</obj_property>
+         <obj_property name="ObjectShortName">enc_dec</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/expand_key" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">expand_key</obj_property>
+         <obj_property name="ObjectShortName">expand_key</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/key_size_192" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">key_size_192</obj_property>
+         <obj_property name="ObjectShortName">key_size_192</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/key_size_256" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">key_size_256</obj_property>
+         <obj_property name="ObjectShortName">key_size_256</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/start" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/running" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">running</obj_property>
+         <obj_property name="ObjectShortName">running</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/sel0" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel0</obj_property>
+         <obj_property name="ObjectShortName">sel0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/sel1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel1</obj_property>
+         <obj_property name="ObjectShortName">sel1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/sel2" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel2</obj_property>
+         <obj_property name="ObjectShortName">sel2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/sel3" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel3</obj_property>
+         <obj_property name="ObjectShortName">sel3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/srl_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">srl_addr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">srl_addr[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/round_key_addr" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_key_addr[5:0]</obj_property>
+         <obj_property name="ObjectShortName">round_key_addr[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/round_number" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_number[5:0]</obj_property>
+         <obj_property name="ObjectShortName">round_number[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/t0_t1" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">t0_t1</obj_property>
+         <obj_property name="ObjectShortName">t0_t1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/done" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/done_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">done_i</obj_property>
+         <obj_property name="ObjectShortName">done_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/sel0_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel0_i</obj_property>
+         <obj_property name="ObjectShortName">sel0_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/sel1_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel1_i</obj_property>
+         <obj_property name="ObjectShortName">sel1_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/sel2_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">sel2_i</obj_property>
+         <obj_property name="ObjectShortName">sel2_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/t0_t1_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">t0_t1_i</obj_property>
+         <obj_property name="ObjectShortName">t0_t1_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/running_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">running_i</obj_property>
+         <obj_property name="ObjectShortName">running_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/srl_addr_i" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">srl_addr_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">srl_addr_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/round_counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">round_counter[5:0]</obj_property>
+         <obj_property name="ObjectShortName">round_counter[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/cycle_counter" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">cycle_counter[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cycle_counter[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/cycle_en" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">cycle_en</obj_property>
+         <obj_property name="ObjectShortName">cycle_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/cipher_core_tb/clefia_core_dut/cipher_state_machine_u0/reset_cycle" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">reset_cycle</obj_property>
+         <obj_property name="ObjectShortName">reset_cycle</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
